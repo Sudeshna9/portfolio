@@ -1,0 +1,687 @@
+
+@media (min-width: 1200px){
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1140px;
+    }
+}
+@media only screen and (min-width:1300px){
+    .container{
+        width: 1270px;
+        max-width: 1250px;
+    }
+}
+@media only screen and (min-width:1440px){
+    h2{
+        font-size: 63px;
+    }
+    #header .container{
+        width: 1360px;
+        max-width: 1360px;
+    }
+    .home_banner .container{
+        width: 1360px;
+        max-width: 1360px;
+    }
+    .banner-leftSec img{
+        margin-left: -30px;
+    }
+    .container{
+        width: 1220px;
+        max-width: 1200px;
+    }
+    .hd_right_sec nav li,
+    .hd_right_sec2 ul li{
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .hd_right_sec nav li a,
+    .hd_right_sec2 ul li a,
+    .hd_right_sec2 button.get-started{
+        font-size: 15px;
+    }
+    #header .logo{
+        width: 139px;
+        max-width: 160px;
+    }
+    .hd_right_sec1 {
+        padding: 0 0 0 14px;
+    }
+    .banner-rhtSec{
+        width: calc(100vw - 41vw);
+    }
+    .banner-rhtSec h1{
+        font-size: 101px;
+    }
+    .banner-leftSec:after{
+        height: 225.59px;
+        width: 486.91px;
+    }
+    .banner-rhtSec{
+        padding-top: 134px;
+    }
+    .efaxAdvantage_btm table thead tr td{
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 140%;
+    }
+    .efaxAdvantage_btm table tbody tr td b{
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 130%;
+    }
+    .solutions_Sec .card4 .cardrht {
+        padding: 40px 36px 47px;
+    }
+    .footer_topSec h5{
+        font-size: 22px;
+    }
+    .accorsianSec .card h5 button{
+        font-size: 30px;
+    }
+    .accorsianSec .card .card-body {
+        font-size: 18px;
+    }
+    .accorsianSec .card{
+        padding: 18px 0;
+    }
+    /* .accorsianSec .accordion:before {
+        content: '';
+        position: absolute;
+        top: -13px;
+        left: -5vw;
+        width: calc(51vw - 1vw);
+        height: calc(45vw - 13px);
+        border-radius: 20px 0 120px 20px;
+        border: 1px solid #FFC46A;
+        background-color: #ffffff;
+    } */
+    .footer_topSec::before {
+        width: calc(100% - 120px);
+    }
+}
+@media (max-width:1420px){
+    
+    .banner-rhtSec {
+        padding: 101px 0 71px 155px;
+        width: calc(100vw - 41vw);
+    }
+    .footer_topSec::before {
+        width: calc(100% - 3%);
+    }
+}
+@media (max-width:1300px){
+    .hd_right_sec nav li, .hd_right_sec2 ul li{
+        padding: 0 10px;
+    }
+    .hd_right_sec {
+        max-width: 87%;
+    }
+    h1{
+        font-size: 80px;
+    }
+    h2 {
+        font-size: 53px;
+    }
+    h5{
+        font-size: 22px;
+    }
+    .banin{
+        max-width: 445px;
+    }
+    .banner-rhtSec{
+        padding: 112px 0 45px 135px;
+    }
+    .footer_topSec::before {
+        width: calc(100% - 5%);
+      }
+}
+@media (max-width:1200px){
+    h2{
+        font-size: 43px;
+    }
+    h5{
+        font-size: 20px;
+    }
+    .container{
+        width: 100%;
+        max-width: 100%;
+    }
+    .hd_right_sec2{
+        padding: 0 15px;
+    }
+    .header_sec {
+        padding: 5px 0;
+    }
+    .header_sec .logo{
+        padding: 0 15px;
+    }
+    .banner-rhtSec{
+        padding: 82px 0 45px 120px;
+    }
+    .banner-rhtSecul{
+        margin-top: 60px;
+    }
+    .hd_right_sec1a i{
+        display: inline-block;
+        vertical-align: middle;
+        margin: 0 10px 0 0;
+        text-align: center;
+        border-radius: 100%;
+        display: block;
+        height: 40px;
+        width: 40px;
+        border: 2px solid #94242F;
+        line-height: 36px;
+    }
+    .hd_right_sec1a span, .hd_right_sec2 span{
+        display: none;
+    }
+    .hd_right_sec1 nav{
+        display: none;
+    }
+    .hd_right_sec2 i{
+        margin: 0;
+    }
+    .mblemnu {
+        position: absolute;
+        top: 50%;
+        right: 25%;
+        z-index: 1;
+        transform: translate(-50%, -50%);
+    }
+    .mblemnu span{
+        display: block;
+        position: relative;
+        background-color: #000;
+        height: 4px;
+        width: 30px;
+    }
+    .mblemnu span:after{
+        content: '';
+        position: absolute;
+        top: -8px;
+        left: 0px;
+        height: 4px;
+        width: 30px;
+        background-color: #000000;
+    }
+    .mblemnu span:before{
+        content: '';
+        position: absolute;
+        top: 8px;
+        left: 0px;
+        height: 4px;
+        width: 30px;
+        background-color: #000000;
+    }
+    #navMenu{
+        position: fixed;
+        right: 0px;
+        top: 97px;
+        width: 100%;
+        padding: 0;
+        z-index: 9;
+    }
+    #navMenu li a{
+        background-color: #1F2C41;
+        padding: 10px 25px;
+        display: block;
+        width: 100%;
+        border-bottom: 1px solid #E5151C;
+        color: #ffffff;
+        transition: all 0.4s;
+    }
+    #navMenu li a:hover{
+        background-color: #E5151C;
+    }
+    .hd_right_sec2 ul{
+        display: none;
+    }
+    .cardrht h4 {
+        font-size: 25px;
+    }
+    .footer_topSec .card{
+        padding: 20px;
+    }
+    .footer_topSec h3{
+        font-size: 38px;
+    }
+    .leaders_sec {
+        padding: 119px 0 119px;
+    }
+    .efaxAdvantage{
+        padding: 100px 0 20px;
+    }
+    .solutions_Sec {
+        padding: 50px 0 85px;
+    }
+    .accorsianSec .accordion:before{
+        display: none;
+    }
+    .conForm{
+        padding: 40px 50px;
+    }
+    .footer_topSecImg{
+        margin-left: -15px;
+    }
+    .footer_topSecImg > .row{
+        margin-left: 15px;
+    }
+    .conForm{
+        margin: 0;
+    }
+    .footer_topSec::before {
+        width: calc(100% - 1%);
+    }
+    .banner-leftSec::after {
+        right: 40px;
+        height: 190px;
+        width: 370px;
+    }
+}
+@media (max-width:1024px){
+    .home_banner {
+        padding-top: 25px;
+    }
+    .efax_PaltformSec {
+        border-radius: 120px 0 0 0;
+        padding: 60px 0 60px;
+        margin: 0;
+    }
+    .accorsianSec {
+        padding: 60px 0 60px;
+    }
+    .efax_PaltformSec p {
+        margin: 10px 0 30px 0;
+        font-size: 16px;
+    }
+    .efax_Paltform--cards p{
+        margin: 0;
+    }
+    .conForm{
+        padding: 35px;
+    }
+    .banner-rhtSecul{
+        margin-top: 40px;
+    }
+}
+@media (max-width:991px){
+    h1{
+        font-size: 60px;
+    }
+    h3{
+        font-size: 40px;
+    }
+    .banner-leftSec::after {
+        right: 40px;
+        height: 140px;
+        width: 290px;
+    }
+    .banner-rhtSec {
+        padding: 65px 0 45px 90px;
+      }
+    .container{
+        width: 100%;
+        max-width: 100%;
+    }
+    .hd_right_sec2{
+        padding: 0 15px;
+    }
+    .banner-rhtSec {
+        padding-top: 40px;
+    }
+    .banner-rhtSec p{
+        font-size: 16px;
+        line-height: 140%;
+    }
+    .banner-rhtSec::before{
+        height: 100%;
+    }
+    .button-primary{
+        padding: 13px 20px;
+    }
+    .efaxService_apps h3 {
+        font-size: 40px;
+        line-height: 130%;
+    }
+    .efaxAdvantage_btm table tr td{
+        padding: 15px 0;
+    }
+    .efaxAdvantage_btm table thead tr td{
+        font-size: 20px;
+    }
+    .efaxAdvantage_btm table tbody tr td b{
+        font-size: 16px;
+    }
+    .efaxAdvantage_btm table tbody tr td span{
+        font-size: 15px;
+    }
+    .efaxAdvantage_btm table tbody tr td img{
+        width: 20px;
+    }
+    .efaxAdvantage{
+        padding: 100px 0 20px;
+    }
+    .solutions_Sec{
+        padding: 70px 0 46px;
+    }
+    .solutions_Sec .card4 .cardrht{
+        padding: 15px;
+    }
+    .cardrht h4 {
+        font-size: 19px;
+    }
+    .solutions_Sec figure{
+        margin: 0 15px 0 0;
+    }
+    .cardrht p{
+        font-size: 12px;
+    }
+    .footer_btmSec{
+        padding: 60px 0 60px;
+    }
+    .footer_btmSec .footer_btmSec2{
+        margin-top: 25px;
+    }
+    .footer_btmSec h5{
+        font-size: 18px;
+    }
+    .accorsianSec{
+        padding: 50px 0;
+    }
+    .accorsianSec .card h5 button{
+        font-size: 20px;
+    }
+    .banner-leftSec img {
+        width: 100%;
+        margin-left: 0;
+    }
+    .banner-rhtSec {
+        padding-top: 44px;
+    }
+    .banner-rhtSec::before{
+        height: 100%;
+    }
+    .leaders_sec_rht{
+        padding-left: 15px;
+    }
+    .mblemnu{
+        right: 217px;
+    }
+    .footer_topSecImg{
+        margin-left: -50px;
+    }
+    .footer_topSecImg > .row{
+        margin-left: 50px;
+    }
+    .btn-Blue{
+        padding: 13px 20px;
+    }
+}
+@media (max-width: 850px) and (min-width: 768px){
+    .banner-rhtSecul {
+        margin-top: 10px;
+      }
+      .banner-rhtSec {
+        padding: 35px 0 45px 63px;
+      }
+      h1{
+        font-size: 50px;
+      }
+}
+@media (max-width:767px){
+    h1{
+        font-size: 50px;
+    }
+    .banner-rhtSec {
+        padding: 55px 20px 45px 70px;
+    }
+    .banner-leftSec{
+        width: 100%;
+    }
+    .banner-leftSec figure{
+        max-width: 400px;
+    }
+    .efax_Paltform--cards .card{
+        padding: 35px 0;
+    }
+    .efaxService_apps{
+        margin: 0 15px;
+    }
+    .leaders_sec_left .row{
+        margin: 0;
+    }
+    .button-primary {
+        padding: 10px 20px;
+    }
+    .banner-rhtSec{
+        position: relative;
+        right: 0px;
+        width: 100%;
+        left: 20px;
+    }
+    .solutions_Sec h3{
+        margin-bottom: 25px;
+    }
+    .mblemnu {
+        right: 182px;
+    }
+    .hd_right_sec2 button.get-started{
+        font-size: 13px;
+        padding: 7px 10px 6px 10px;
+    }
+    .header_sec .logo img{
+        width: 109px;
+    }
+    .banner-leftSec{
+        padding-right: 15px;
+    }
+    .banin {
+        max-width: 100%;
+    }
+    .banner-rhtSecul li:first-child {
+        padding-right: 10px;
+        margin-right: 10px;
+    }
+    .banner-rhtSec::before {
+        display: none;
+    }
+    .efaxService_apps h2 {
+        line-height: 120%;
+    }
+    .efaxService_apps p {
+        line-height: 148%;
+        font-size: 16px;
+        padding: 0;
+    }
+    .efaxService_apps .container{
+        border-radius: 0 140px 0 0;
+    }
+    .leaders_sec_rht h2{
+        font-size: 40px;
+        margin-top: 40px;
+    }
+    .leaders_sec {
+        padding: 69px 0 69px;
+    }
+    .efaxAdvantage h3 {
+        margin-bottom: 25px;
+    }
+    .efaxAdvantage_heading{
+        flex-direction: column;
+        margin-bottom: 45px;
+        text-align: center;
+    }
+    .efaxAdvantage_btm{
+        overflow-x: scroll;
+    }
+    .efaxAdvantage_btm table{
+        width: 800px;
+    }
+    .efaxAdvantage{
+        padding: 80px 0 20px;
+    }
+    .solutions_Sec .card4pa1,
+    .solutions_Sec .card4pa2{
+        padding: 0 12px;
+    }
+    .solutions_Sec .cardrht,
+    .solutions_Sec .card4 .cardrht{
+        padding: 15px;
+    }
+    .cardrht p{
+        font-size: 14px;
+    }
+    .footer_topSec h3 {
+        font-size: 30px;
+    }
+    .footer_topSec .card{
+        margin: 15px;
+    }
+    .footer_topSec .d-flex{
+        flex-direction: column;
+    }
+    .footer_midSec h2 {
+        margin: 0px auto 30px;
+        text-align: center;
+        width: 60%;
+    }
+    .footer_midSec h2 br{
+        display: none;
+    }
+    .ft1 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .footer_btmSec h5{
+        margin: 10px 0;
+    }
+    .ft2 ul{
+        width: 100%;
+    }
+    .ft2 {
+        flex: 0 0 50%;
+        max-width: 50%;
+        -ms-flex: 0 0 50%;
+        margin: 0;
+    }
+    .ft2 ul:last-child{
+        padding: 0;
+    }
+    .ft3{
+        margin: 0;
+    }
+    .footer_btmSec p{
+        margin-top: 25px;
+    }
+    .banner-rhtSec .lernhMore{
+        height: 42px;
+        line-height: 33px;
+    }
+    .accorsianSecCon{
+        order: 2;
+        position: relative;
+    }
+    .accorsianSecimg{
+        order: 1;
+    }
+    .footer_topSec:before{
+        top: 130px;
+        height: calc(100% - 130px);
+    }
+    .accorsianSec h2{
+        margin: 35px 0 20px;
+        font-size: 43px;
+    }
+    .acorbg{
+        width: 100%;
+    }
+    .efax_Paltform--cards .cardsec{
+        border: 0px;
+        border-bottom: 1px solid #EEE9E3;
+        padding: 0;
+        margin: 0 25px;
+        width: calc(100% - 50px);
+    }
+    .conForm{
+        padding: 25px;
+    }
+    .accorsianSec button{
+        font-size: 25px;
+    }
+    .leaders_sec_left img{
+        width: 100px;
+      }
+      .solutions_Sec .d-flex{
+        flex-direction: column;
+    }
+}
+@media (max-width: 530px){
+    .solutions_Sec .card{
+        flex-direction: column;
+      }
+      .solutions_Sec figure {
+        margin: 0 0 0 0;
+        overflow: hidden;
+        width: 100%;
+        height: 250px;
+      }
+      .solutions_Sec figure img{
+        width: 100%;
+        height: auto;
+      }
+      
+}
+@media (max-width: 440px){
+    h5{
+        font-size: 15px;
+    }
+    .account {
+        margin: 0 0 0 5px;
+    }
+    .search {
+        margin: 0 0 0 10px;
+    }
+    .header_sec .logo {
+        float: left;
+        width: 129px;
+    }
+    .search, .account {
+        width: 20px;
+    }
+    .hd_right_sec2 button img {
+        width: 16px;
+    }
+    .header_sec .container > .row{
+        justify-content: space-between;
+    }
+    .mblemnu {
+        right: 156px;
+    }
+    .mblemnu span{
+        height: 3px;
+        width: 25px;
+    }
+    .mblemnu span:before {
+        top: 6px;
+        height: 3px;
+        width: 25px;
+    }
+    .mblemnu span:after {
+        top: -6px;
+        height: 3px;
+        width: 25px;
+    }
+    .banner-rhtSec .lernhMore{
+        margin: 20px 0 0 0;
+    }
+    .banner-rhtSec {
+        padding: 95px 20px 45px 20px;
+      }
+      .efaxService_apps .container .row{
+        border-radius: 0 120px 0 0;
+      }
+      
+}
